@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic" >
+    <test name="Tests">
+        <classes>
+            <class name="tests.FailedLoginTest"></class>
+           <!-- <class name="tests.LoginWithoutEmailTest"></class>
+            <class name="tests.LoginWithoutPasswordTest"></class>-->
+            <class name="tests.LoginWIthWrongCredentialsTest"></class>
+            <class name="tests.LoginWithValidCredentialsTest"></class>
+            <class name="testsWithLogin.LogoutTest"></class>
+            <class name="testsWithLogin.RemoveItemFromCartTest"></class>
+            <class name="testsWithLogin.PurchasingItemTest"></class>
+        </classes>
+    </test>
+</suite>
